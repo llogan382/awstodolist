@@ -1,15 +1,31 @@
 {
-  "dev": {
+  "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-awsappsynctodolist-dev-110129-authRole",
-      "UnauthRoleArn": "arn:aws:iam::536327525881:role/amplify-awsappsynctodolist-dev-110129-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::536327525881:role/amplify-awsappsynctodolist-dev-110129-authRole",
+      "AuthRoleName": "amplify-amplify929caaab058a4-staging-162304-authRole",
+      "UnauthRoleArn": "arn:aws:iam::536327525881:role/amplify-amplify929caaab058a4-staging-162304-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::536327525881:role/amplify-amplify929caaab058a4-staging-162304-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-awsappsynctodolist-dev-110129-deployment",
-      "UnauthRoleName": "amplify-awsappsynctodolist-dev-110129-unauthRole",
-      "StackName": "amplify-awsappsynctodolist-dev-110129",
-      "StackId": "arn:aws:cloudformation:us-east-1:536327525881:stack/amplify-awsappsynctodolist-dev-110129/3c09ce60-7a0a-11ec-a3e8-12b9ba882b2f",
-      "AmplifyAppId": "dzefq6sv3p546"
+      "DeploymentBucketName": "amplify-amplify929caaab058a4-staging-162304-deployment",
+      "UnauthRoleName": "amplify-amplify929caaab058a4-staging-162304-unauthRole",
+      "StackName": "amplify-amplify929caaab058a4-staging-162304",
+      "StackId": "arn:aws:cloudformation:us-east-1:536327525881:stack/amplify-amplify929caaab058a4-staging-162304/13065c50-7dfb-11ec-8936-12d286198009",
+      "AmplifyAppId": "d31cyrgdf3oyd8"
+    },
+    "categories": {
+      "auth": {
+        "awstodolist": {
+          "userPoolId": "us-east-1_kU2muAb8w",
+          "userPoolName": "awstodolist",
+          "webClientId": "l6p67lot04o8fhead1d2981r0",
+          "nativeClientId": "l6p67lot04o8fhead1d2981r0"
+        }
+      },
+      "function": {
+        "awstodolist23fcbc58": {
+          "deploymentBucketName": "amplify-amplify929caaab058a4-staging-162304-deployment",
+          "s3Key": "amplify-builds/awstodolist23fcbc58-36666d42596e2b725564-build.zip"
+        }
+      }
     }
   }
 }
